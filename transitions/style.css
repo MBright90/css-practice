@@ -1,13 +1,15 @@
-/* First container */
-#transition-container-1 {
-    width: 100%;
-    height: 100%;
+#transition-container {
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
 }
+
+/* First container */
 
 #hover-transition-button {
     border: 1px solid black;
@@ -22,3 +24,18 @@
 #hover-transition-button:hover {
     background-color: black;
 }
+
+/* Second container */
+
+#transform-div {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+
+    transition: transform 2s 1s;
+}
+
+#transform-div:hover {
+    transform: rotate(180deg);
+}
+
