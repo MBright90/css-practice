@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transitions</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="javascript.js" defer></script>
 </head>
 
 <body>
@@ -15,7 +16,13 @@
 
     <div id="transition-container">
         <div id="transform-div"></div>        
+    </div>
 
+    <div id="transition-container" class="interactive">
+        <div class="box duration-1">Fast</div>
+        <div class="box duration-2">Medium</div>
+        <div class="box duration-3">Slow</div>
+        <button id="rotate-preview-button">Change</button>
     </div>
     
 </body>
