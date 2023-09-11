@@ -1,4 +1,4 @@
-#transition-container {
+.transition-container {
     border: 2px solid red;
     width: 200px;
     height: 100px;
@@ -79,3 +79,46 @@
 .duration-3 {
     transition-duration: 5s;
 }
+
+/* Fourth container */
+
+.timing-function > div[class] {
+    width: 175px;
+    min-width: 175px;
+    margin-bottom: 4px;
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+    transition-property: all;
+    transition-duration: 7s;
+}
+
+.parent > div.timing-transformed {
+    width: 90vw;
+    min-width: 24em;
+    background-color: magenta;
+    color: yellow;
+    border: 1px solid orange;
+    transition-property: all;
+    transition-duration: 2s;
+  }
+
+  .ease {
+    transition-timing-function: ease;
+  }
+  .ease-in {
+    transition-timing-function: ease-in;
+  }
+  .ease-out {
+    transition-timing-function: ease-out;
+  }
+  .ease-in-out {
+    transition-timing-function: ease-in-out;
+  }
+  .linear {
+    transition-timing-function: linear;
+  }
+  .cb {
+    transition-timing-function: cubic-bezier(0.2, -2, 0.8, 2);
+  }
+  
